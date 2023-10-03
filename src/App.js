@@ -1,4 +1,5 @@
 import { useReducer } from 'react';
+import NavigationBar from './components/NavigationBar';
 import AddTodo from './components/AddTodos';
 import TodoList from './components/TodoList';
 
@@ -32,6 +33,7 @@ export default function TodoApp() {
 
   return (
     <>
+      <NavigationBar />
       <h1 className="text-center">React.js Todo PWA</h1>
       <div className="container">
         <div className="m-3">
